@@ -1,0 +1,21 @@
+export interface IUser{
+    name:string,
+    age:number,
+    gender:string,
+    id:number,
+    img:string,
+    bill_no:number,
+    date:string,
+    receipt_no:number,
+    mobile_no:number,
+    tax:number,
+    discount:number,
+    total:number,
+    services:{
+        sr_no:number,
+        service_name:string,
+        price:number,
+        quantity:number,
+        amount:number
+    }
+};

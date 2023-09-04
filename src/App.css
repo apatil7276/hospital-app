@@ -1,0 +1,13 @@
+.App {
+  /* border: 1px solid red; */
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+ 
+} 
+.main-section{
+ display: flex;
+ height: 100vh;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&family=Roboto:wght@300;400;500&display=swap');

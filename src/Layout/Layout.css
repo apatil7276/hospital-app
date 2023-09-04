@@ -1,0 +1,442 @@
+.item1 {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 293px;
+    /* flex-grow: 1; */
+    /* justify-content: center; */
+    flex-direction: column;
+
+}
+
+.logo {
+    padding: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-section {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+
+    /* 30px */
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    padding: 23px;
+    gap: 30px;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+    /* 24px */
+    width: 214px;
+    height: 52px;
+    flex-shrink: 0;
+    border: 0.5px solid #312E81;
+}
+ul li:hover{
+   
+    border-radius: 8px;
+    border: 0.5px solid #FFF;
+    background: #9795CD;
+}
+.list-tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    /* height: 100%; */
+}
+
+.item2 {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #F1F5F9;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.06), 0px 4px 6px -1px rgba(0, 0, 0, 0.10);
+    padding: 25px;
+    overflow: auto;
+    gap: 30px
+}
+
+.grid-container {
+    display: flex;
+    flex: 1;
+    background: #312E81;
+    border-radius: 20px;
+    overflow: hidden;
+    /* border: 1px solid green; */
+}
+
+.header-section {
+    display: flex;
+    flex-shrink: 0;
+    /* background: red; */
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.header-section .search-bar {
+    width: 675px;
+    flex-grow: 1;
+    border-radius: 28px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;    
+}
+
+.header-section .search-bar>input {
+    display: flex;
+    flex-grow: 1;
+    height: 46px;
+    outline: none;
+    border: none;
+    color: #525252;
+
+    /* caption */
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.header-section .search-bar>svg {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.Bageg {
+    display: flex;
+    height: 40px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 8px; */
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: var(--Primary, #312E81);
+    color: #FFF;
+
+    /* text */
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.overview-section {
+    display: flex;
+    justify-content: space-between;
+    /* background: red; */
+}
+
+.overview-text {
+    color: #000;
+
+    /* main heading */
+    font-family: Helvetica;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 30px */
+}
+
+.cal-of-month {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 266px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--secondary, #CBE3FF);
+    color: #000;
+    text-align: center;
+    /* text */
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.cal-of-month>svg {
+    width: 38.935px;
+    height: 37.377px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--Primary, #312E81);
+}
+
+.card-details-section {
+    height: 318px;
+    display: flex;
+}
+
+
+
+.billing-section {
+    display: flex;
+    flex-grow: 1;
+    height: 644px;
+
+    justify-content: center;
+    border-radius: 24px;
+    background: #FFF;
+    padding: 25px;
+}
+
+.card-section {
+    display: flex;
+    width: 355px;
+    height: 121px;
+
+    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
+    /* background: var(--secondary, #CBE3FF); */
+
+    align-items: center;
+
+    /* overflow: auto; */
+
+}
+
+.card-area {
+    position: relative;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none !important;
+    /* overflow-x: hidden; */
+    width: 372px;
+}
+
+/* .card-area{
+    overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.card-area ::-webkit-scrollbar {
+    display: none;
+} */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+.card-details {
+    /* border-radius: 24px; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+}
+
+.img-section {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-text {
+
+    display: flex;
+    color: #000;
+    /* text */
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* gap: 10px; */
+    height: 27px;
+    /* 27px */
+}
+
+.profile-section {
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+    /* line-height: 150%; */
+}
+
+.bill-no {
+    color: #753939;
+
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.bill-receipt {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    border-radius: 24px;
+    border: 1px solid var(--Primary, #312E81);
+    background: #FFF;
+    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04), 0px 20px 25px -5px rgba(0, 0, 0, 0.03), 0px -6px 25px 0px rgba(0, 0, 0, 0.04);
+}
+
+.recept-header {
+    display: flex;
+    align-items: center;
+    /* width: 695px; */
+    height: 89px;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.billing-details-title {
+    color: #000;
+
+    /* heading */
+    font-family: Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 26.4px */
+}
+
+.print-btn {
+    color: #FFF;
+
+    /* text */
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+    display: inline-flex;
+    height: 40px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: var(--Primary, #312E81);
+}
+
+.view-discription {
+    display: flex;
+    width: 217px;
+    height: 32px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    border: 1px solid var(--Primary, #312E81);
+    color: var(--Primary, #312E81);
+
+    /* caption */
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.profile-details-section {
+    height: 89px;
+    background: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px;
+}
+
+.profile-title {
+    color: #000;
+
+    /* caption */
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+    opacity: 0.5;
+}
+
+.profile-name {
+    color: #000;
+
+    /* caption */
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+
+tr:first-child {
+    border-bottom: 1px solid #312E81;
+    text-align: center;
+}
+
+.total-count {
+    display: flex;
+    justify-content: space-between;
+    background: #F3F3F3;
+    height: 67px;
+    padding: 10px 19px 10px 19px;
+    border-radius: 0px 0px 24px 24px;
+}
+
+.hr {
+    background: #312E81;
+    padding: 0.5px;
+}
